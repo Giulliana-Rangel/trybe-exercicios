@@ -1,0 +1,28 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+ul {
+    background-color: aquamarine;
+}
+
+.cor-de-fundo{
+    background-color: aquamarine;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+body {
+    font-size: 16px;
+}
+li {
+    font-style: italic;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+}
