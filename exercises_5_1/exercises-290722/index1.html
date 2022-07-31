@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="paragrafos" id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="paragrafos" id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "red";
+      console.log(document.getElementById("#page-title"));
+      document.querySelector("#page-title").innerHTML = "Gladiador";
+      document.querySelector('#second-paragraph').innerHTML = "Gladiator (prt/bra: Gladiador)[8][9] é um filme britano-americano de 2000, dos gêneros drama histórico, ação e aventura."
+      document.querySelector('#subtitle').innerHTML = "Segundo Melhor Filme : A espera de um Milagre, com Tom Hanks."
+      document.querySelector('#paragraph').style.backgroundColor = "blue";
+      console.log(document.querySelectorAll('.paragrafos'));
+      document.querySelectorAll('.paragrafos')[0].style.color = "green";
+      document.querySelectorAll("h4")[0].style.color = "orange";
+</script>
+  </body>
+</html>
